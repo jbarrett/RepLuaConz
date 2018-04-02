@@ -26,7 +26,7 @@ CanShoot = {
 
     draw_bullets = function(self)
         for i, bullet in ipairs(self.bullets) do
-            if bullet.alive then
+            if bullet:alive() then
                 bullet:draw(255,255,255)
             end
         end
