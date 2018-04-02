@@ -1,7 +1,6 @@
 local class = require "middleclass"
 Thing = class('Thing')
 
-local pl = require 'pl.pretty'
 function Thing:initialize(opts)
     self.x = opts.x
     self.y = opts.y

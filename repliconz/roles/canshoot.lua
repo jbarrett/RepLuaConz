@@ -1,6 +1,5 @@
 require "middleclass"
 require "repliconz.bullet"
-local pl = require 'pl.pretty'
 
 CanShoot = {
     can_shoot = true,

@@ -8,7 +8,6 @@ local bump = require "bump"
 local world = bump.newWorld()
 
 math.randomseed( os.time() + ( os.clock() * 1000000 ) )
-local pl = require 'pl.pretty'
 
 function Game:initialize()
     modes = love.window.getFullscreenModes()

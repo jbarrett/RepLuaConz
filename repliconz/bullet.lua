@@ -1,7 +1,6 @@
 require "repliconz.thing"
 Bullet = Thing:subclass('Bullet')
 
-local pl = require 'pl.pretty'
 function Bullet:filter(other)
     if other.class == self.class then return 'cross' end
     if other.class == self.shooter.class then return 'cross' end
